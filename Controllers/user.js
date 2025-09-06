@@ -30,9 +30,14 @@ const setJwtCookieAndSendResponse = (res, statusCode, msg, user) => {
   //   token: token,
   // });
 };
-
 exports.signup = async (req, res) => {
   try {
+    if(req.body.email.split('@')[1] !== 'iiitg.ac.in') {
+      return res.status(400).json({
+        message: "Please use your IIITG email to register.",
+      });
+    }
+
     const existingUser = await User.findOne({
       $or: [
           { email: req.body.email },
