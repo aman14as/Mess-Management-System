@@ -33,10 +33,10 @@ We welcome contributions of all forms. If you have suggestions or want to contri
 
 ## Versioning
 
-We use semantic versioning for our project. For the versions available, see the [tags on this repository](https://github.com/aman14as/Mess-Management-System-IIITG/tags).
+We use semantic versioning for our project. For the versions available, see the [tags on this repository](https://github.com/aman14as/Mess-Management-System/tags).
 
 
-For the complete list of contributors who participated in this project, visit the [contributors section](https://github.com/aman14as/Mess-Management-System-IIITG/contributors).
+For the complete list of contributors who participated in this project, visit the [contributors section](https://github.com/aman14as/Mess-Management-System/contributors).
 
 ## License
 
